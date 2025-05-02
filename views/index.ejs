@@ -1,0 +1,19 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+</head>
+<body>
+  <h1 style="text-align: center;">
+    Welcome, <%= user.name %>!</h1>
+  <div class="table" style="border: solid; text-align: center;">
+    <p>Your age is <span style="font-weight: bold;color: red;">
+      <%= user.age %>.
+    </span> </p>
+    <p>Your age is <span style="font-weight: bold;color: green;">
+      <%= user.email %>.
+    </span> </p>
+  </div>
+</body>
+</html>
